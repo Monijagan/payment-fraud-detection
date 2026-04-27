@@ -18,3 +18,6 @@ End-to-end fraud detection pipeline for P2P payment transactions.
 - 73.5% fraud detection recall
 - 23 engineered features
 - Real-time risk scoring (0-1000 scale)
+
+## Dashboard
+![Fraud Detection Dashboard](dashboard.png)
