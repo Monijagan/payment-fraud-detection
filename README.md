@@ -20,10 +20,11 @@ uses machine learning to detect fraud patterns in real-time with 73.5% recall.
 Raw CSV Data → ETL Pipeline → PostgreSQL → Feature Engineering → XGBoost Model → Power BI Dashboard
 
 ## Project Structure
+```
 payment-fraud-detection/
 ├── Scripts/
-│   ├── etl_pipeline.py      # Extracts CSVs, transforms, loads into PostgreSQL
-│   └── ml_model.py          # Feature engineering + XGBoost model training
+│   ├── etl_pipeline.py      # ETL pipeline loading data into PostgreSQL
+│   └── ml_model.py          # Feature engineering + XGBoost model
 ├── Dataset/
 │   ├── customers.csv        # 5,000 customer profiles
 │   ├── recipients.csv       # 2,500 recipient profiles
@@ -31,6 +32,7 @@ payment-fraud-detection/
 ├── Dashboard/
 │   └── fraud_detection_dashboard.pbix
 └── dashboard.png
+```
 
 ## Key Results
 - **50,000** transactions analyzed
